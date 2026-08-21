@@ -1,13 +1,5 @@
 import { GalleryItem, MenuItem, Review } from '../types';
 
-import driveImg1 from '../assets/photos/drive_img_1.jpg';
-import driveImg2 from '../assets/photos/drive_img_2.jpg';
-import driveImg3 from '../assets/photos/drive_img_3.jpg';
-import driveImg4 from '../assets/photos/drive_img_4.jpg';
-import driveImg5 from '../assets/photos/drive_img_5.jpg';
-import driveImg6 from '../assets/photos/drive_img_6.jpg';
-import driveImg7 from '../assets/photos/drive_img_7.jpg';
-
 export const BUSINESS_INFO = {
   name: "Food Bazar Caterer",
   tagline: "Quality Catering Service",
@@ -22,12 +14,17 @@ export const BUSINESS_INFO = {
   satisfiedGuests: "5,00,000+",
 };
 
+export const EXTRA_PHOTOS = {
+  aboutFeatured: '/photos/about_featured.jpg',
+  brassWarmers: '/photos/starter_brass_warmers.jpg'
+};
+
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'gal-1',
     title: 'Authentic Banquet Hospitality',
     category: 'clients',
-    image: driveImg1,
+    image: '/photos/drive_img_1.jpg',
     description: 'Creating memorable catering moments and warm culinary hospitality for happy couples, families, and guests.',
     highlights: ['Bespoke Hospitality', 'Royal Banquet Care', 'Dedicated Team', 'VIP Dining Experience']
   },
@@ -35,7 +32,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gal-2',
     title: 'Grand Entrance & Welcome Canopies',
     category: 'decor',
-    image: driveImg2,
+    image: '/photos/drive_img_2.jpg',
     description: 'Lush floral arches, majestic drapery, and warm lighting welcoming wedding guests in grand royal style.',
     highlights: ['Floral Welcome Arch', 'Draped Canopies', 'VIP Entryway', 'Grand Aesthetics']
   },
@@ -43,7 +40,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gal-3',
     title: 'Grand Wedding Stage & Floral Architecture',
     category: 'decor',
-    image: driveImg3,
+    image: '/photos/drive_img_3.jpg',
     description: 'Opulent wedding reception stages, fresh floral backdrops, and elegant event lighting design.',
     highlights: ['Royal Stage Design', 'Fresh Floral Walls', 'Warm Ambiance', 'Luxury Decor']
   },
@@ -51,7 +48,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gal-4',
     title: 'Royal Handi Buffet & Grand Chafers',
     category: 'food',
-    image: driveImg4,
+    image: '/photos/drive_img_4.jpg',
     description: 'Steaming hot signature delicacies (Mutton Biryani, Chingri Malai Curry) in traditional hand-hammered brass handis.',
     highlights: ['Royal Handi Buffet', 'Steaming Hot Service', 'Traditional Brass Chafers', 'Rich Aroma & Taste']
   },
@@ -59,7 +56,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gal-5',
     title: 'Live Tandoor & Skewers Station',
     category: 'live',
-    image: driveImg5,
+    image: '/photos/drive_img_5.jpg',
     description: 'Master chefs preparing fresh skewers, kebabs, and live charcoal grill specialties right before your guests.',
     highlights: ['Live Charcoal Tandoor', 'Fresh Grilled Kebabs', 'Master Chefs', 'Hygienic Setup']
   },
@@ -67,7 +64,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gal-6',
     title: 'Royal Brass Starter Warmers',
     category: 'food',
-    image: driveImg6,
+    image: '/photos/drive_img_6.jpg',
     description: 'Crispy fried appetizers and sizzling starter delicacies served in shining brass warmers.',
     highlights: ['Royal Brass Warmers', 'Crispy Golden Starters', 'Live Starters Counter', 'Piping Hot Service']
   },
@@ -75,7 +72,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gal-7',
     title: 'Artisanal Plate Setup & Salad Counters',
     category: 'live',
-    image: driveImg7,
+    image: '/photos/drive_img_7.jpg',
     description: 'Illuminated counters, curated artisanal salad presentations, and fine banquet dinnerware stations.',
     highlights: ['Illuminated Stations', 'Fresh Cut Displays', 'Hygienic Layout', 'FSSAI Standards']
   }
